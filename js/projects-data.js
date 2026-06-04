@@ -6,30 +6,29 @@
  * - description: Brief description of the project
  * - tags: Array of technology/topic tags
  * - links: Array of {label, url} objects for project links
- * 
- * Example:
- * {
- *     title: 'AI-Powered Analytics Platform',
- *     description: 'Built an enterprise analytics platform leveraging AI agents to automate data insights generation.',
- *     tags: ['AI/ML', 'Product Strategy', 'Enterprise'],
- *     links: [
- *         { label: 'GitHub', url: 'https://github.com/exkaze/project-name' },
- *         { label: 'Live Demo', url: 'https://demo.example.com' }
- *     ]
- * }
  */
 
 window.projectsData = [
-    // Add your projects below
-    // {
-    //     title: 'Project Title',
-    //     description: 'Project description goes here. Explain what the project does and how AI was integrated.',
-    //     tags: ['AI', 'Product Management', 'Technology'],
-    //     links: [
-    //         { label: 'GitHub', url: 'https://github.com/exkaze/project' },
-    //         { label: 'Demo', url: 'https://example.com' }
-    //     ]
-    // }
+    {
+        title: 'Medicare Advantage Selector',
+        description: 'AI-driven prototype helping seniors navigate Medicare vs Medicare Advantage plans. Leverages NLP for voice/chat interaction and proprietary algorithms to match plans based on health conditions, prescriptions, location, and lifestyle needs. Targets 1M+ seniors with personalized insurance recommendations.',
+        tags: ['AI/NLP', 'Product Leadership', 'Healthcare', 'Voice Interface', 'Senior Tech'],
+        links: [
+            { label: 'Live Demo', url: 'https://exkaze.github.io/SK-medicare-selector/' },
+            { label: 'GitHub Repo', url: 'https://github.com/exkaze/SK-medicare-selector' },
+            { label: 'Product Spec', url: '#' }
+        ]
+    },
+    {
+        title: 'Digital Communications Opt-In System',
+        description: 'Enterprise consent and preference management platform for SMS, Email, and Push Notifications. Enables recipients granular control over communication content types and frequency while ensuring regulatory compliance. Real-time compliance checking ensures all messages respect user preferences.',
+        tags: ['Product Strategy', 'Compliance', 'User Preferences', 'Digital Communications', 'Enterprise'],
+        links: [
+            { label: 'Live Demo', url: 'https://exkaze.github.io/Comms-Opt-In/' },
+            { label: 'GitHub Repo', url: 'https://github.com/exkaze/Comms-Opt-In' },
+            { label: 'Product Spec', url: '#' }
+        ]
+    }
 ];
 
 // Helper function to add a project
